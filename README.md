@@ -12,6 +12,8 @@ Express: http://expressjs.com/
 
 Cross-origin: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
+CORS NPM: https://www.npmjs.com/package/cors
+
 ## Inspelningar
 
 Förmiddag: 
