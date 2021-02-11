@@ -18,7 +18,7 @@ CORS NPM: https://www.npmjs.com/package/cors
 
 Förmiddag: https://academediase.sharepoint.com/:v:/s/Frontend20Helsingborg/EQNoLEzO6eNLiNfpMeab2hcBMy5cnd7SC8cGj8_3qf4UHg?e=aMDPGa
 
-Eftermiddag:
+Eftermiddag: https://academediase.sharepoint.com/:v:/s/Frontend20Helsingborg/EQT88CgEquxJrtppzdMAT-EB1QTRkMXC-m7u0hpyIdXegg?e=MAEOqF
 
 ## Tidigare lektioner
 
