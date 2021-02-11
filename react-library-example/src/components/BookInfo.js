@@ -18,15 +18,11 @@ function BookInfo() {
     const [book , setBook] = useState({});
     console.log('useParams: ', id);
 
-    useEffect(() => {
-        console.log('Books ', books);
-        //Filtera ut den bok som motsvarar det ID som finns i url:en
-        const foundBook = books.filter((bookObj) => {
-            return bookObj.id === parseInt(id);
-        });
-
-        console.log(foundBook);
-        setBook(foundBook[0]);
+    useEffect(async () => {
+        const response = await fetch(`http://localhost:7000/books/${id}`);
+        const data = await response.json();
+        
+        setBook(data);
     }, [])
 
     return (

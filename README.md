@@ -2,11 +2,15 @@
 
 ## Övningar
 
+Shakespeare insult generator: https://gist.github.com/zocom-christoffer-wallenberg/aef4419a9c36f60ddf187748540636d9
+
 ## Artiklar
 
 Introduktion till NodeJS: https://medium.com/jspoint/introduction-to-node-js-a-beginners-guide-to-node-js-and-npm-eca9c408f9fe
 
 Express: http://expressjs.com/
+
+Cross-origin: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
 ## Inspelningar
 

@@ -13,15 +13,17 @@
 
 const fs = require('fs');
 const express = require('express');
-const { request } = require('http');
+const cors = require('cors');
 //Skapa en server från express
 const server = express();
+
+server.use(cors());
 
 server.get('/books', (request, response) => {
     fs.readFile('childrensbooks.json', 'utf8', (error, content) => {
         response.send(content);
     });
-})
+});
 
 server.get('/books/:id', (request, response) => {
     console.log('Id är: ', request.params.id);
@@ -36,7 +38,7 @@ server.get('/books/:id', (request, response) => {
             return book.id === parseInt(id);
         });
         //Skicka tillbaka det hittade objektet
-        response.send(foundBook);
+        response.send(foundBook[0]);
     });
 });
 

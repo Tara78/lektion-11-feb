@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import booksFromAssets from '../assets/childrensbooks.json';
 import '../App.css';
 
 import Book from './Book';
@@ -7,8 +6,10 @@ import Book from './Book';
 function Books() {
     const [books, setBooks] = useState([]);
 
-    useEffect(() => {
-        setBooks(booksFromAssets);
+    useEffect(async () => {
+        const response = await fetch('http://localhost:7000/books');
+        const data = await response.json();
+        setBooks(data);
     }, [])
 
     return (
