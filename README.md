@@ -16,7 +16,7 @@ CORS NPM: https://www.npmjs.com/package/cors
 
 ## Inspelningar
 
-Förmiddag: 
+Förmiddag: https://academediase.sharepoint.com/:v:/s/Frontend20Helsingborg/EQNoLEzO6eNLiNfpMeab2hcBMy5cnd7SC8cGj8_3qf4UHg?e=aMDPGa
 
 Eftermiddag:
 
